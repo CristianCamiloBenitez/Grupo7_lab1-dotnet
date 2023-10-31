@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\buildMultiTargeting\Grupo7_lab1-dotnet.props" />
+</Project>
