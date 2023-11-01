@@ -1,0 +1,22 @@
+﻿@model List<Grupo7_lab1_dotnet.Models.Entities.Estudio>
+
+<h1>Estudios</h1>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>Nombre</th>
+            <th>Profesion</th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var estudio in Model)
+        {
+            <tr>
+                <td>@Html.DisplayFor(m=>estudio.Univer)</td>
+                <td>@Html.DisplayFor(m=>estudio.IdProf)</td>
+            </tr>
+        }
+    </tbody>
+</table>

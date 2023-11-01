@@ -16,12 +16,20 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = C:\Users\crisc\OneDrive\Documentos\GitHub\Grupo7_lab1-dotnet\Grupo7_lab1-dotnet\Grupo7_lab1-dotnet
 build_property._RazorSourceGeneratorDebug = 
 
+[C:/Users/crisc/OneDrive/Documentos/GitHub/Grupo7_lab1-dotnet/Grupo7_lab1-dotnet/Grupo7_lab1-dotnet/Views/estudios/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcZXN0dWRpb3NcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/crisc/OneDrive/Documentos/GitHub/Grupo7_lab1-dotnet/Grupo7_lab1-dotnet/Grupo7_lab1-dotnet/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/crisc/OneDrive/Documentos/GitHub/Grupo7_lab1-dotnet/Grupo7_lab1-dotnet/Grupo7_lab1-dotnet/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/crisc/OneDrive/Documentos/GitHub/Grupo7_lab1-dotnet/Grupo7_lab1-dotnet/Grupo7_lab1-dotnet/Views/profesion/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NccHJvZmVzaW9uXEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/crisc/OneDrive/Documentos/GitHub/Grupo7_lab1-dotnet/Grupo7_lab1-dotnet/Grupo7_lab1-dotnet/Views/Shared/Error.cshtml]

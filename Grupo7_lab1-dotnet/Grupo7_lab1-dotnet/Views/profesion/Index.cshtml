@@ -1,0 +1,19 @@
+﻿@model List<Grupo7_lab1_dotnet.Models.Entities.Profesion>
+
+<h1>Marcas</h1>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>Nombre</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var profesion in Model)
+        {
+            <tr>
+                <td>@Html.DisplayFor(m=>profesion.Nom)</td>
+            </tr>
+        }
+    </tbody>
+</table>

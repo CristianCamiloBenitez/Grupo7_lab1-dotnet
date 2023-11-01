@@ -1,7 +1,15 @@
+using Grupo7_lab1_dotnet.Models.Entities;
+using Microsoft.EntityFrameworkCore;
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();
+
+builder.Services.AddDbContext <PersonaDbContext>(options =>
+{
+    options.UseSqlServer(builder.Configuration.GetConnectionString("PersonaDbContext"));
+});
 
 var app = builder.Build();
 
