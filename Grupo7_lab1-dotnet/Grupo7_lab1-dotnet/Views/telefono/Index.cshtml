@@ -1,0 +1,19 @@
+﻿@model List<Grupo7_lab1_dotnet.Models.Entities.Telefono>
+
+<h1>Telefonos</h1>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>Numero</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var telefono in Model)
+        {
+            <tr>
+                <td>@Html.DisplayFor(m=>telefono.Num)</td>
+            </tr>
+        }
+    </tbody>
+</table>

@@ -2,6 +2,10 @@
 
 <h1>Estudios</h1>
 
+<p>
+  <a asp-action="Create">Crear</a>
+</p>
+
 <table class="table">
     <thead>
         <tr>
@@ -15,7 +19,7 @@
         {
             <tr>
                 <td>@Html.DisplayFor(m=>estudio.Univer)</td>
-                <td>@Html.DisplayFor(m=>estudio.IdProf)</td>
+                <td>@Html.DisplayFor(m=>estudio.IdProfNavigation.Nom)</td>
             </tr>
         }
     </tbody>

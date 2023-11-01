@@ -1,0 +1,19 @@
+﻿@model List<Grupo7_lab1_dotnet.Models.Entities.Persona>
+
+<h1>Personas</h1>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>Nombre</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var persona in Model)
+        {
+            <tr>
+                <td>@Html.DisplayFor(m=>persona.Nombre)</td>
+            </tr>
+        }
+    </tbody>
+</table>
